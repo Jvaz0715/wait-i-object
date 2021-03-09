@@ -8,6 +8,9 @@ const myCodeImmersivesObj = {
 
 // Below, set the value of property `wait` to be "I object".
 
+myCodeImmersivesObj.wait = " I object"
+//console.log(myCodeImmersivesObj)
+
 
 // Add the new property `isAnExcellentObject` and set it to `true`.
 
