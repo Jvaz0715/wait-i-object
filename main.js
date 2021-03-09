@@ -36,6 +36,8 @@ console.log(myCodeImmersivesObj)
 
 
 // Now add your `currentScore` and your `cumulativeScore` and put it back in `cumulativeScore`.
+myCodeImmersivesObj.cumulativeScore += myCodeImmersivesObj.currentScore;
+console.log(myCodeImmersivesObj)
 
 
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
