@@ -77,9 +77,9 @@ console.log(jamesVaz)
 jamesVaz.address = [];
 console.log(jamesVaz)
 
-
-
 // Now push three strings into that array.
+jamesVaz.address.push('123 Main Street', 'New York', 'New York');
+console.log(jamesVaz)
 
 
 // Part 3 - setting key-value pairs in-line.
