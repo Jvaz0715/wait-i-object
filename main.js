@@ -26,9 +26,13 @@ myCodeImmersivesObj.term += 1;
 console.log(myCodeImmersivesObj)
 
 // Now add a new property called `currentScore` and set it to 3.
+myCodeImmersivesObj.currentScore = 3;
+console.log(myCodeImmersivesObj)
 
 
 // Now add a new property called `cumulativeScore` and set it to 50.
+myCodeImmersivesObj.cumulativeScore = 50;
+console.log(myCodeImmersivesObj)
 
 
 // Now add your `currentScore` and your `cumulativeScore` and put it back in `cumulativeScore`.
