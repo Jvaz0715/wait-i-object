@@ -41,6 +41,8 @@ console.log(myCodeImmersivesObj)
 
 
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
+myCodeImmersivesObj['I am exactly this cool'] = `soooooo cool`;
+console.log(myCodeImmersivesObj)
 
 
 // Part 2 - your own object.
