@@ -48,20 +48,35 @@ console.log(myCodeImmersivesObj)
 // Part 2 - your own object.
 // Now make a new EMPTY object that represents yourself. You won't put any properties in the curly braces, but just like in part 1, add them in each step below using plain JavaScript statements.
 
+const jamesVaz = {
+
+}
 
 // Add a `firstName` property and set it to a string.
 
+jamesVaz.firstName = 'James';
+console.log(jamesVaz)
+
 
 // Add a `lastName` property and set it to a string.
+jamesVaz.lastName = 'Vazquez';
+console.log(jamesVaz)
 
 
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
+jamesVaz.fullName = `${jamesVaz.firstName} ${jamesVaz.lastName}`;
+console.log(jamesVaz)
 
 
 // Add an `age` property and set it to a number.
+jamesVaz.age = 30;
+console.log(jamesVaz)
 
 
 // Add an address property and set it to an empty array.
+jamesVaz.address = [];
+console.log(jamesVaz)
+
 
 
 // Now push three strings into that array.
